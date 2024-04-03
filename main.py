@@ -10,7 +10,7 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 # ID del canal donde se enviarán las sugerencias y el mensaje de bienvenida
-canal_sugerencias_id = 1224854710448816138
+canal_sugerencias_id = 1224882937078612030
 
 # Mensaje de bienvenida
 mensaje_bienvenida = "¡Bienvenido al canal de sugerencias! Aquí puedes enviar tus sugerencias y votar por ellas. Después de 1 día, aquellas sugerencias con al menos 5 reacciones positivas permanecerán."
