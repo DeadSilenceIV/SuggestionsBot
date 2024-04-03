@@ -21,14 +21,7 @@ async def on_ready():
   print('¡Bot conectado como {0.user}!'.format(client))
   canal_sugerencias = client.get_channel(canal_sugerencias_id)
   # Envía un mensaje de bienvenida al canal de sugerencias
-  await canal_sugerencias.send(mensaje_bienvenida)
-
-
-# Manejador de eventos al detener el bot
-@client.event
-async def on_shutdown():
-  canal_sugerencias = client.get_channel(canal_sugerencias_id)
-  await canal_sugerencias.purge(check=lambda m: m.author == client.user)
+  #await canal_sugerencias.send(mensaje_bienvenida)
 
 
 @client.event
